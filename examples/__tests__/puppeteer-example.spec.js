@@ -17,7 +17,7 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
 
-const screenshotsPath = path.resolve(__dirname, '.');
+const screenshotsPath = path.resolve(__dirname, './screenshots');
 
 describe('jest-image-snapshot usage with an image received from puppeteer', () => {
   let browser;
